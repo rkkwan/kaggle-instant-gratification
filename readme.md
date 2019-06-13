@@ -5,13 +5,13 @@ https://www.kaggle.com/c/instant-gratification/kernels
 `data/` not included in repo. Dataset can be acquired from the competition's website.
 
 ### Predictor
-[Quadratic Discriminant Analysis](https://scikit-learn.org/stable/modules/generated/sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis.html)
+[Quadratic Discriminant Analysis](https://scikit-learn.org/stable/modules/generated/sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis.html)  
 `from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis`
 
 ### Metric
 ROC-AUC Score.  
 
-QDA: **0.96541**
+QDA: **0.96541**  
 QDA with Pseudo Labeling: **0.97027**
 
 ### Techniques
@@ -52,4 +52,4 @@ new_preds = model.predict_proba(test)
 
 ### To-Do:
 #### Flipping
-Randomly flip a portion (2.5%) of incorrectly predicted 0's and 1's.
+Randomly flip a portion (2.5%) of incorrectly predicted 0's and 1's in training set.
